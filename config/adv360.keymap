@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LG(SPACE)>,
-                <&kp i &kp n &kp t &kp e &kp l &kp l &kp i &kp j>,
+                <&kp U &kp K &kp G>,
                 <&kp RET>;
 
             label = "APP_INTELLIJ";
