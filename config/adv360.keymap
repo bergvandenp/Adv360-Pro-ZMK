@@ -36,13 +36,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LCMD>,
-                <&macro_tap>,
-                <&kp SPACE>,
-                <&macro_release>,
+                <&kp LCMD(SPACE)>
                 <&kp I &kp N &kp T &kp E &kp L &kp L &kp I &kp J>,
-                <&macro_tap>,
                 <&kp RET>;
 
             label = "APP_INTELLIJ";
