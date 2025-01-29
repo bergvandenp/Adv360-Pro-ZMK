@@ -35,11 +35,7 @@
         app_intellij: app_intellij {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LG(SPACE)>,
-                <&kp U &kp K &kp G>,
-                <&kp RET>;
-
+            bindings = <&kp LG(SPACE) &kp I &kp N &kp T &kp RET>;
             label = "APP_INTELLIJ";
         };
     };
