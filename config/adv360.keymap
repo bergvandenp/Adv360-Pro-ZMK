@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LCMD(SPACE)>
+                <&kp LG(SPACE)>
                 <&kp I &kp N &kp T &kp E &kp L &kp L &kp I &kp J>,
                 <&kp RET>;
 
